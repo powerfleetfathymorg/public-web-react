@@ -9,13 +9,13 @@ function App() {
       <header className="App-header">
         <a href="https://powerfleet.fathym-it.com/"><img src={logo} className="pf-logo" alt="logo" /></a>
         <div className="siteNav">
-          <a href="https://powerfleet.fathym-it.com/" target="_blank" rel="noreferrer">
+          <a href="https://powerfleet.fathym-it.com/dash1" target="_blank" rel="noreferrer">
             <button className="navbutton">Dash 1</button>
           </a>
-          <a href="https://powerfleet.fathym-it.com/" target="_blank" rel="noreferrer">
+          <a href="https://powerfleet.fathym-it.com/dash2" target="_blank" rel="noreferrer">
             <button className="navbutton">Dash 2</button>
           </a>
-          <a href="https://powerfleet.fathym-it.com/" target="_blank" rel="noreferrer">
+          <a href="https://powerfleet.fathym-it.com/dash3" target="_blank" rel="noreferrer">
             <button className="navbutton">Dash 3</button>
           </a>
         </div>
