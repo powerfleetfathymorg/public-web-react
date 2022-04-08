@@ -15,9 +15,6 @@ function App() {
           <a href="https://powerfleet.fathym-it.com/dash2/">
             <button className="navbutton">Dash 2</button>
           </a>
-          <a href="https://powerfleet.fathym-it.com/dash3/">
-            <button className="navbutton">Dash 3</button>
-          </a>
         </div>
       </header>
       <div className="main-container">
@@ -36,6 +33,8 @@ function App() {
             <img src={dashboard} className="dashImage" alt="Reefer Tracking" />
           </div>
 
+          <br /><br />
+
           <div className="dashContainer">
             <div>
               <div className="dashTitle">Dashboard 2</div>
@@ -45,21 +44,6 @@ function App() {
                 Take your experience and coding skills to new heights. Fathym will help you develop low-code solutions that enable junior and mid-level developers to accelerate.
               </div>
               <a href="https://powerfleet.fathym-it.com/dash2/">
-                <button className="button">Visit Site</button>
-              </a>
-            </div>
-            <img src={dashboard} className="dashImage" alt="Reefer Tracking" />
-          </div>
-
-          <div className="dashContainer">
-            <div>
-              <div className="dashTitle">Dashboard 3</div>
-              <div className="dashText">
-                <em>Built in Gatsby</em>
-                <br /><br />
-                No matter the framework, Fathym has you covered.  Deploy with micro frontends to seamlessly use the right frameworks for the right job.
-              </div>
-              <a href="https://powerfleet.fathym-it.com/dash3/">
                 <button className="button">Visit Site</button>
               </a>
             </div>
