@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './powerfleet-logo-80.jpg';
 import dashboard from './midwest-reefer-dashboard.jpg';
+import frameworkImage from './react.jpg';
 import './App.css';
 
 function App() {
@@ -49,6 +50,10 @@ function App() {
             </div>
             <img src={dashboard} className="dashImage" alt="Reefer Tracking" />
           </div>
+      </div>
+      <div className="builtin">
+        Built in React<br />
+        <img src={frameworkImage} className="frameworkImage" alt="React" />
       </div>
     </div>
   );
