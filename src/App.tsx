@@ -29,7 +29,7 @@ function App() {
                 <br /><br />
                 Fathym micro frontends are a powerful tool that allow your team to use the frameworks best fit for the job.  Break free from monolithic, use open source and custom code in harmony.
               </div>
-              <a href="https://powerfleet.fathym-it.com/" target="_blank" rel="noreferrer">
+              <a href="https://powerfleet.fathym-it.com/dash1/">
                 <button className="button">Visit Site</button>
               </a>
             </div>
@@ -44,7 +44,7 @@ function App() {
                 <br /><br />
                 Take your experience and coding skills to new heights. Fathym will help you develop low-code solutions that enable junior and mid-level developers to accelerate.
               </div>
-              <a href="https://powerfleet.fathym-it.com/" target="_blank" rel="noreferrer">
+              <a href="https://powerfleet.fathym-it.com/dash2/">
                 <button className="button">Visit Site</button>
               </a>
             </div>
@@ -59,7 +59,7 @@ function App() {
                 <br /><br />
                 No matter the framework, Fathym has you covered.  Deploy with micro frontends to seamlessly use the right frameworks for the right job.
               </div>
-              <a href="https://powerfleet.fathym-it.com/" target="_blank" rel="noreferrer">
+              <a href="https://powerfleet.fathym-it.com/dash3/">
                 <button className="button">Visit Site</button>
               </a>
             </div>
