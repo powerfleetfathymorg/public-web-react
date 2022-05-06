@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from './powerfleet-logo-80.jpg';
-import dashboard from './midwest-reefer-dashboard.jpg';
 import frameworkImage from './react.jpg';
 import './App.css';
 
