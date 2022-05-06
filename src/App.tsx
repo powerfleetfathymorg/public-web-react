@@ -16,45 +16,18 @@ function App() {
           <a href="https://powerfleet.fathym-it.com/dash2/">
             <button className="navbutton">Dash 2</button>
           </a>
+          <a href="https://powerfleet.fathym-it.com/dash3/">
+            <button className="navbutton">Dash 3</button>
+          </a>
         </div>
       </header>
-      <div className="main-container">
-          <div className="dashContainer">
-            <div>
-              <div className="dashTitle">Dashboard 1</div>
-              <div className="dashText">
-                <em>Built in Angular</em>
-                <br /><br />
-                Fathym micro frontends are a powerful tool that allow your team to use the frameworks best fit for the job.  Break free from monolithic, use open source and custom code in harmony.
-              </div>
-              <a href="https://powerfleet.fathym-it.com/dash1/">
-                <button className="button">Visit Site</button>
-              </a>
-            </div>
-            <img src={dashboard} className="dashImage" alt="Reefer Tracking" />
-          </div>
-
-          <br /><br />
-
-          <div className="dashContainer">
-            <div>
-              <div className="dashTitle">Dashboard 2</div>
-              <div className="dashText">
-                <em>Built in Svelte</em>
-                <br /><br />
-                Take your experience and coding skills to new heights. Fathym will help you develop low-code solutions that enable junior and mid-level developers to accelerate.
-              </div>
-              <a href="https://powerfleet.fathym-it.com/dash2/">
-                <button className="button">Visit Site</button>
-              </a>
-            </div>
-            <img src={dashboard} className="dashImage" alt="Reefer Tracking" />
-          </div>
-      </div>
-      <div className="builtin">
-        Built in React<br />
-        <img src={frameworkImage} className="frameworkImage" alt="React" />
-      </div>
+      <div className="dashboard">
+        <iframe title="powerfleet-LV450-reefer-tracking - Page 1" width="1540" height="941.25" src="https://app.powerbi.com/view?r=eyJrIjoiOGJjYTA0MzktMWY4MS00M2I4LTkzYTctMjRmNzQ1YjU1YjU5IiwidCI6IjZkY2JlYmQwLWY4ZDAtNGE5ZC04OWU1LTU4NzNlODE0NmIwYSIsImMiOjR9" frameBorder="0"></iframe>
+        <div className="builtin">
+          Built in React<br />
+          <img src={frameworkImage} className="frameworkImage" alt="React" />
+        </div>
+      </div>      
     </div>
   );
 }
