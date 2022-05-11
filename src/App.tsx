@@ -20,13 +20,15 @@ function App() {
           </a>
         </div>
       </header>
+      <br />
       <div className="dashboard">
-        <iframe title="powerfleet-LV450-reefer-tracking - Page 1" width="1540" height="941.25" src="https://app.powerbi.com/view?r=eyJrIjoiOGJjYTA0MzktMWY4MS00M2I4LTkzYTctMjRmNzQ1YjU1YjU5IiwidCI6IjZkY2JlYmQwLWY4ZDAtNGE5ZC04OWU1LTU4NzNlODE0NmIwYSIsImMiOjR9" frameBorder="0"></iframe>
-        <div className="builtin">
+        <iframe title="powerfleet-LV450-reefer-tracking - Page 1" className="responsive-iframe" src="https://app.powerbi.com/view?r=eyJrIjoiOGJjYTA0MzktMWY4MS00M2I4LTkzYTctMjRmNzQ1YjU1YjU5IiwidCI6IjZkY2JlYmQwLWY4ZDAtNGE5ZC04OWU1LTU4NzNlODE0NmIwYSIsImMiOjR9" frameBorder="0"></iframe>
+      </div>
+      <br />
+      <div className="builtin">
           Built in React<br />
           <img src={frameworkImage} className="frameworkImage" alt="React" />
-        </div>
-      </div>      
+        </div> 
     </div>
   );
 }
